@@ -1,0 +1,45 @@
+# Site
+title: Petro Matviichuk
+description: If you want to go fast, go alone. If you want to go far, go together
+url: https://www.matviichuk.com
+logo: profile.png
+locale: en_US
+
+# Left Block Images
+background:
+  homepage: images/home.png                           # this image will be shown on homepage's left block
+  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
+
+# Google Analytics
+google-analytics: UA-76629845-3
+
+# Social Links
+email:             petro@matviichuk.com
+twitter:           petromatviichuk
+medium:            pmatv
+github:            pmatv
+linkedin:          pmatv
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
